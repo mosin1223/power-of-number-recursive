@@ -1,12 +1,6 @@
 import java.util.Scanner;
 
 class power{
-   /* private int num ,power;
-    void set(int num, int power){
-        this.num=num;
-        this.power=power;
-    }*/
-
     int answer(int num ,int  power ){
         if(power == 0){
             return 1;
@@ -30,9 +24,6 @@ public class Q4 {
         power = write.nextInt();
 
         power p1 = new power();
-        //p1.set(num,power);
         System.out.println("Answer is : "+ p1.answer(num,power));
     }
-
-
 }
